@@ -1,0 +1,20 @@
+2015-22-02	Ovidiu - Dan Bogat	sh42@pro-odb.com
+	*Cleaned up the sources to utilize the autotools,
+	by moving all the sources files into 'src', and 
+	revwirintg configure.ac.
+
+	*Added the doc directory to the project.
+
+	*Added a man-page for the project as a duplicate from
+	http://www.chiark.greenend.org.uk/~sgtatham/ipbt/ipbt.html
+	which ships with the project, for the section 1 - User Commands.
+
+	*Dropped HALIBUT portion of the configure.ac.
+	man-pages are now handled by autotools.
+
+	*Dropped the malloc/realloc/error portion of 
+	configure.ac and Makefile.am (src/Makefile.am).
+
+	*Configured the Project to ship all required 
+	sourcefiles without modyfing bin_PROGRAMS (ie putty.h,
+	puttyps.h, puttymem.h,...).

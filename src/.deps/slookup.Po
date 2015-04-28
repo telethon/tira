@@ -1,0 +1,17 @@
+slookup.o: slookup.c /usr/include/stdc-predef.h charset.h \
+ /usr/lib/gcc/i686-pc-linux-gnu/4.8.3/include/stddef.h internal.h enum.c \
+ sbcsdat.c utf8.c
+
+/usr/include/stdc-predef.h:
+
+charset.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/4.8.3/include/stddef.h:
+
+internal.h:
+
+enum.c:
+
+sbcsdat.c:
+
+utf8.c:

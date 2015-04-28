@@ -1,0 +1,10 @@
+fromucs.o: fromucs.c /usr/include/stdc-predef.h charset.h \
+ /usr/lib/gcc/i686-pc-linux-gnu/4.8.3/include/stddef.h internal.h
+
+/usr/include/stdc-predef.h:
+
+charset.h:
+
+/usr/lib/gcc/i686-pc-linux-gnu/4.8.3/include/stddef.h:
+
+internal.h:
